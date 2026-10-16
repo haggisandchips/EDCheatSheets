@@ -1,0 +1,278 @@
+{
+ "id": "xbox-360-controller",
+ "name": "Xbox 360 Controller",
+ "short": "Xbox pad",
+ "suggested_device_ids": [
+  "GamePad"
+ ],
+ "notes": "Works for any XInput pad (Xbox One/Series too) - only the photo differs.",
+ "photo": {
+  "file": "Xbox-360-Controller-Black.jpg",
+  "image_size": [
+   1920,
+   1451
+  ],
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Xbox-360-Controller-Black.jpg/1920px-Xbox-360-Controller-Black.jpg",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Xbox-360-Controller-Black.jpg",
+  "credit": "Photo: Evan-Amos, Wikimedia Commons (public domain)",
+  "licence": "Public domain",
+  "crop": [
+   40,
+   40,
+   1810,
+   1420
+  ]
+ },
+ "modifier_names": {
+  "GamePad_FaceDown": "A",
+  "GamePad_FaceRight": "B",
+  "GamePad_FaceLeft": "X",
+  "GamePad_FaceUp": "Y",
+  "GamePad_DPadUp": "D-pad up",
+  "GamePad_DPadDown": "D-pad down",
+  "GamePad_DPadLeft": "D-pad left",
+  "GamePad_DPadRight": "D-pad right",
+  "GamePad_LBumper": "LB",
+  "GamePad_RBumper": "RB"
+ },
+ "controls": [
+  {
+   "id": "LSH",
+   "title": "Left bumper & trigger",
+   "short": "",
+   "dot": [
+    430,
+    175
+   ],
+   "side": "left",
+   "rows": [
+    [
+     "LB",
+     "GamePad_LBumper"
+    ],
+    [
+     "LT",
+     "Pos_GamePad_LTrigger"
+    ],
+    [
+     "LT dig",
+     "GamePad_LTrigger"
+    ],
+    [
+     "LT axis",
+     "GamePad_LTriggerAxis"
+    ]
+   ]
+  },
+  {
+   "id": "LS",
+   "title": "Left stick",
+   "short": "LS",
+   "dot": [
+    615,
+    190
+   ],
+   "side": "left",
+   "rows": [
+    [
+     "up",
+     "Neg_GamePad_LStickY"
+    ],
+    [
+     "right",
+     "Pos_GamePad_LStickX"
+    ],
+    [
+     "down",
+     "Pos_GamePad_LStickY"
+    ],
+    [
+     "left",
+     "Neg_GamePad_LStickX"
+    ],
+    [
+     "push",
+     "GamePad_LThumb"
+    ],
+    [
+     "X axis",
+     "GamePad_LStickX"
+    ],
+    [
+     "Y axis",
+     "GamePad_LStickY"
+    ]
+   ]
+  },
+  {
+   "id": "DPAD",
+   "title": "D-pad",
+   "short": "D-pad",
+   "dot": [
+    750,
+    420
+   ],
+   "side": "left",
+   "rows": [
+    [
+     "up",
+     "GamePad_DPadUp"
+    ],
+    [
+     "right",
+     "GamePad_DPadRight"
+    ],
+    [
+     "down",
+     "GamePad_DPadDown"
+    ],
+    [
+     "left",
+     "GamePad_DPadLeft"
+    ]
+   ]
+  },
+  {
+   "id": "BACK",
+   "title": "Back",
+   "short": "Back",
+   "dot": [
+    900,
+    270
+   ],
+   "side": "left",
+   "rows": [
+    [
+     "Back",
+     "GamePad_Back"
+    ]
+   ]
+  },
+  {
+   "id": "RSH",
+   "title": "Right bumper & trigger",
+   "short": "",
+   "dot": [
+    1660,
+    240
+   ],
+   "side": "right",
+   "rows": [
+    [
+     "RB",
+     "GamePad_RBumper"
+    ],
+    [
+     "RT",
+     "Pos_GamePad_RTrigger"
+    ],
+    [
+     "RT dig",
+     "GamePad_RTrigger"
+    ],
+    [
+     "RT axis",
+     "GamePad_RTriggerAxis"
+    ]
+   ]
+  },
+  {
+   "id": "FACE",
+   "title": "Face buttons",
+   "short": "",
+   "dot": [
+    [
+     1500,
+     465
+    ],
+    [
+     1690,
+     400
+    ],
+    [
+     1410,
+     350
+    ],
+    [
+     1615,
+     285
+    ]
+   ],
+   "side": "right",
+   "rows": [
+    [
+     "A",
+     "GamePad_FaceDown"
+    ],
+    [
+     "B",
+     "GamePad_FaceRight"
+    ],
+    [
+     "X",
+     "GamePad_FaceLeft"
+    ],
+    [
+     "Y",
+     "GamePad_FaceUp"
+    ]
+   ]
+  },
+  {
+   "id": "START",
+   "title": "Start",
+   "short": "Start",
+   "dot": [
+    1240,
+    320
+   ],
+   "side": "right",
+   "rows": [
+    [
+     "Start",
+     "GamePad_Start"
+    ]
+   ]
+  },
+  {
+   "id": "RS",
+   "title": "Right stick",
+   "short": "RS",
+   "dot": [
+    1200,
+    480
+   ],
+   "side": "right",
+   "rows": [
+    [
+     "up",
+     "Neg_GamePad_RStickY"
+    ],
+    [
+     "right",
+     "Pos_GamePad_RStickX"
+    ],
+    [
+     "down",
+     "Pos_GamePad_RStickY"
+    ],
+    [
+     "left",
+     "Neg_GamePad_RStickX"
+    ],
+    [
+     "push",
+     "GamePad_RThumb"
+    ],
+    [
+     "X axis",
+     "GamePad_RStickX"
+    ],
+    [
+     "Y axis",
+     "GamePad_RStickY"
+    ]
+   ]
+  }
+ ]
+}

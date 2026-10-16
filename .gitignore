@@ -1,0 +1,16 @@
+# Manufacturer product photos are not ours to redistribute; each profile records where to download them.
+img/GNE_*.png
+
+# Generated sheets embed those photos - rebuild them with make_sheets.py
+*.pdf
+
+# Build by-products
+_preview/
+__pycache__/
+*.photo.jpg
+
+# Per-user Claude Code settings
+.claude/settings.local.json
+
+# Personal sheet settings (see ed-sheets.example.json)
+ed-sheets.json

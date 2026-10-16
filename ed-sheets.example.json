@@ -1,0 +1,31 @@
+{
+  "style": "visual",
+  "drop": ["MC"],
+  "devices": {
+    "231D0200": {
+      "profile": "vkb-gladiator-nxt-evo-scg-premium-right",
+      "file": "VKB Gladiator NXT EVO SCG Premium Right",
+      "pages": [
+        {"title": "Flight – ship, combat, panels & scanners", "contexts": ["SHIP", "UI", "FSS", "DSS"]},
+        {"title": "Cameras & colony placement", "contexts": ["CAM", "COL"]}
+      ]
+    },
+    "231D0201": {
+      "profile": "vkb-gladiator-nxt-evo-omni-throttle-scg-left",
+      "file": "VKB GNX EVO Omni Throttle SCG Left Premium",
+      "pages": [
+        {"title": "Flight – ship, combat, panels & scanners", "contexts": ["SHIP", "UI", "FSS", "DSS"]},
+        {"title": "Cameras & colony placement", "contexts": ["CAM", "COL"]}
+      ]
+    },
+    "GamePad": {
+      "profile": "xbox-360-controller",
+      "file": "Xbox Controller",
+      "drop": ["SHIP", "STORE", "MC"],
+      "pages": [
+        {"title": "SRV & on foot", "contexts": ["SRV", "FOOT"]},
+        {"title": "Menus, maps, scanners, cameras & colony", "contexts": ["UI", "FSS", "DSS", "MAP", "CAM", "COL"]}
+      ]
+    }
+  }
+}

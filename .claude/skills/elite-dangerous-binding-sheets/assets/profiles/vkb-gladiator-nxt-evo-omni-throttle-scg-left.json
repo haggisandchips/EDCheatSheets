@@ -1,0 +1,356 @@
+{
+ "id": "vkb-gladiator-nxt-evo-omni-throttle-scg-left",
+ "name": "VKB Gladiator NXT EVO Omni Throttle – SCG Left Premium (OTA)",
+ "short": "Left Omni Throttle",
+ "suggested_device_ids": [
+  "231D0201"
+ ],
+ "notes": "Button numbers follow VKB's default Elite Dangerous layout for SCG grips. VKB devices get their USB PID from their configuration (0200 for the first, 0201 for the second...), so check the device id with 'make_sheets.py list' and map it in ed-sheets.json if needed.",
+ "photo": {
+  "file": "GNE_OT_SCG_01.png",
+  "image_size": [
+   600,
+   600
+  ],
+  "source_url": "https://cdn.shopify.com/s/files/1/0808/7827/2731/files/GNE_OT_SCG_01.webp",
+  "page_url": "https://vkbsimcontrollers.com/products/gladiator-nxt-evo-omni-throttle-left-hand-us",
+  "credit": "Photo: VKB-Sim product image",
+  "licence": "VKB-Sim product photo",
+  "crop": [
+   90,
+   60,
+   515,
+   560
+  ],
+  "blank": [
+   [
+    0,
+    0,
+    160,
+    110
+   ]
+  ]
+ },
+ "modifier_names": {
+  "Joy_5": "D1",
+  "Joy_1": "trigger half-pull"
+ },
+ "implicit_modifiers": {
+  "Joy_2": [
+   "Joy_1"
+  ]
+ },
+ "controls": [
+  {
+   "id": "A1",
+   "title": "A1  Ministick",
+   "short": "A1",
+   "rows": [
+    [
+     "up",
+     "Pos_Joy_RYAxis"
+    ],
+    [
+     "right",
+     "Pos_Joy_RXAxis"
+    ],
+    [
+     "down",
+     "Neg_Joy_RYAxis"
+    ],
+    [
+     "left",
+     "Neg_Joy_RXAxis"
+    ]
+   ],
+   "dot": [
+    415,
+    157
+   ],
+   "side": "left"
+  },
+  {
+   "id": "A2",
+   "title": "A2  Red button",
+   "short": "A2",
+   "rows": [
+    [
+     "3",
+     "Joy_3"
+    ]
+   ],
+   "dot": [
+    388,
+    191
+   ],
+   "side": "right"
+  },
+  {
+   "id": "A3",
+   "title": "A3  Centre hat",
+   "short": "A3",
+   "rows": [
+    [
+     "up",
+     "Joy_6"
+    ],
+    [
+     "right",
+     "Joy_7"
+    ],
+    [
+     "down",
+     "Joy_8"
+    ],
+    [
+     "left",
+     "Joy_9"
+    ],
+    [
+     "push",
+     "Joy_10"
+    ]
+   ],
+   "dot": [
+    381,
+    134
+   ],
+   "side": "left"
+  },
+  {
+   "id": "A4",
+   "title": "A4  Top hat",
+   "short": "A4",
+   "rows": [
+    [
+     "up",
+     "Joy_11"
+    ],
+    [
+     "right",
+     "Joy_12"
+    ],
+    [
+     "down",
+     "Joy_13"
+    ],
+    [
+     "left",
+     "Joy_14"
+    ],
+    [
+     "push",
+     "Joy_15"
+    ]
+   ],
+   "dot": [
+    412,
+    102
+   ],
+   "side": "right"
+  },
+  {
+   "id": "C1",
+   "title": "C1  Thumb hat",
+   "short": "C1",
+   "rows": [
+    [
+     "up",
+     "Joy_16"
+    ],
+    [
+     "right",
+     "Joy_17"
+    ],
+    [
+     "down",
+     "Joy_18"
+    ],
+    [
+     "left",
+     "Joy_19"
+    ],
+    [
+     "push",
+     "Joy_20"
+    ],
+    [
+     "long",
+     "Joy_31"
+    ]
+   ],
+   "dot": [
+    312,
+    219
+   ],
+   "side": "left"
+  },
+  {
+   "id": "B1",
+   "title": "B1  Side button",
+   "short": "B1",
+   "rows": [
+    [
+     "4",
+     "Joy_4"
+    ]
+   ],
+   "dot": [
+    452,
+    120
+   ],
+   "side": "right"
+  },
+  {
+   "id": "D1",
+   "title": "D1  Pinky button",
+   "short": "D1",
+   "rows": [
+    [
+     "5",
+     "Joy_5"
+    ]
+   ],
+   "dot": [
+    352,
+    203
+   ],
+   "side": "left"
+  },
+  {
+   "id": "TRIG",
+   "title": "Main trigger  (two-stage)",
+   "short": "trigger",
+   "rows": [
+    [
+     "half",
+     "Joy_1"
+    ],
+    [
+     "full",
+     "Joy_2"
+    ]
+   ],
+   "dot": [
+    432,
+    214
+   ],
+   "side": "right"
+  },
+  {
+   "id": "RAPID",
+   "title": "Rapid-fire trigger",
+   "short": "rapid-fire",
+   "rows": [
+    [
+     "up",
+     "Joy_21"
+    ],
+    [
+     "down",
+     "Joy_22"
+    ]
+   ],
+   "dot": [
+    455,
+    205
+   ],
+   "side": "right"
+  },
+  {
+   "id": "BASE",
+   "title": "Base buttons",
+   "short": "",
+   "rows": [
+    [
+     "F1",
+     "Joy_27"
+    ],
+    [
+     "F2",
+     "Joy_28"
+    ],
+    [
+     "F3",
+     "Joy_29"
+    ]
+   ],
+   "dot": [
+    205,
+    395
+   ],
+   "side": "left"
+  },
+  {
+   "id": "SW1",
+   "title": "Sw1  Base left switch",
+   "short": "Sw1",
+   "rows": [
+    [
+     "up",
+     "Joy_23"
+    ],
+    [
+     "down",
+     "Joy_24"
+    ]
+   ],
+   "dot": [
+    160,
+    427
+   ],
+   "side": "left"
+  },
+  {
+   "id": "EN1",
+   "title": "En1  Base right encoder",
+   "short": "En1",
+   "rows": [
+    [
+     "up",
+     "Joy_25"
+    ],
+    [
+     "down",
+     "Joy_26"
+    ]
+   ],
+   "dot": [
+    198,
+    458
+   ],
+   "side": "left"
+  },
+  {
+   "id": "AXES",
+   "title": "Axes",
+   "short": "",
+   "rows": [
+    [
+     "X",
+     "Joy_XAxis"
+    ],
+    [
+     "Y",
+     "Joy_YAxis"
+    ],
+    [
+     "Twist",
+     "Joy_RZAxis"
+    ],
+    [
+     "Wheel",
+     "Joy_ZAxis"
+    ],
+    [
+     "A1 X",
+     "Joy_RXAxis"
+    ],
+    [
+     "A1 Y",
+     "Joy_RYAxis"
+    ]
+   ]
+  }
+ ]
+}
